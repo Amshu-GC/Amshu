@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Me — Amshu G.C</title>
+    <meta name="description"
+        content="Cute, modern, student portfolio focused on About Me — pastel, soft glass, zero frameworks." />
+    <meta name="theme-color" content="#ffb6e6" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Caveat:wght@600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="backdrop" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+    </div>
+
+    <nav class="container nav">
+        <div class="logo">
+            <div class="logo-badge"></div>
+            <div class="logo-title">Amshu</div>
+        </div>
+        <div class="controls">
+            <button class="btn" id="theme">☾ Theme</button>
+            <span class="muted">Accent:</span>
+            <span class="dot" data-color="#ff9bd3" style="background:#ff9bd3"></span>
+            <span class="dot" data-color="#c7b6ff" style="background:#c7b6ff"></span>
+            <span class="dot" data-color="#ffd6a5" style="background:#ffd6a5"></span>
+            <span class="dot" data-color="#b9fbc0" style="background:#b9fbc0"></span>
+            <span class="dot" data-color="#a6e7ff" style="background:#a6e7ff"></span>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section class="hero">
+            <div class="intro reveal">
+                <div class="hi">Hi, I’m <em>Amshu G.C</em> ✨</div>
+                <p class="lead">A student who loves clean design, cute vibes and learning by building. I turn ideas into
+                    simple, pretty web pages with HTML, CSS and a sprinkle of JavaScript.</p>
+                <p style="margin-top:8px">I’m <span class="type" id="type">curious</span> — and always improving day by
+                    day.</p>
+                <div class="chips">
+                    <span class="chip">🌸 Soft Aesthetic</span>
+                    <span class="chip">🎀 Detail Lover</span>
+                    <span class="chip">🧠 Fast Learner</span>
+                    <span class="chip">💌 Open to Collab</span>
+                </div>
+                <div class="controls" style="margin-top:14px">
+                    <a class="btn primary" href="#about">Read About Me</a>
+                    <button class="btn" onclick="window.print()">Save as PDF</button>
+                </div>
+            </div>
+
+            <aside class="avatar-card reveal">
+                <div class="floating">✨ that’s me</div>
+                <div class="avatar-wrap">
+
+                    <img id="avatar" src="/assests/pic/amshu.jpg" alt="Your photo" />
+                    <div class="ring"></div>
+                </div>
+                <label class="upload">
+                    <input id="file" type="file" accept="image/*" style="display:none" />
+                    <span class="btn">📷 Upload Photo</span>
+                    <small class="muted">JPG/PNG — shows instantly</small>
+                </label>
+            </aside>
+        </section>
+
+
+        <section id="about" class="section reveal">
+            <header>
+                <h2>About Me</h2>
+                <span class="muted">short & sweet</span>
+            </header>
+            <div class="about-grid">
+                <div class="bio">
+                    <p>Hey! I’m <b>Amshu G.C</b> — a student based in <b>Butwal</b>. I’m a peace-seeker at heart who
+                        loves exploring new things and trying something fresh every day. I feel most alive near rivers,
+                        where the flowing water brings me calmness and clarity. 🌊✨</p>
+                    <p style="margin-top:10px">I believe that every day gets better when we connect with God. I love
+                        visiting holy places and listening to the stories behind them. At night, I find my soul
+                        boundless under the sky, admiring the moon’s gentle glow and the countless stars that whisper
+                        peace. 🌙</p>
+                    <p style="margin-top:10px">I believe in faith, but also deeply in myself — that I’m meant to live a
+                        life full of passion, purpose, magic, and miracles. This little website reflects my personal
+                        taste and marks a small step in my journey of learning web development. 💖</p>
+                </div>
+                <aside>
+                    <div class="vibes">
+                        <span class="vibe">🌸 Peace Seeker</span>
+                        <span class="vibe">🌙 Moon Admirer</span>
+                        <span class="vibe">🌊 River Watcher</span>
+                        <span class="vibe">✨ Faith Believer</span>
+                        <span class="vibe">📖 Story Explorer</span>
+                        <span class="vibe">💖 Dream Chaser</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+
+
+        <section class="section reveal">
+            <header>
+                <h2>Little Fun Stats</h2>
+                <span class="muted">not serious, just me</span>
+            </header>
+            <div class="stats">
+                <div class="stat">
+                    <div>☕ Tea vs Coffee</div><b>100% Coffee</b>
+                </div>
+                <div class="stat">
+                    <div>⌛ Avg focus</div><b>45 min</b>
+                </div>
+                <div class="stat">
+                    <div>🎵 Lofi playlist</div><b>24/7</b>
+                </div>
+                <div class="stat">
+                    <div>💙 Fav color</div><b>Blue</b>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section reveal">
+            <header>
+                <h2>What I’m Working Toward</h2>
+                <span class="muted">2025 intentions</span>
+            </header>
+            <div class="goals">
+                <div class="goal">
+                    <h3>Stronger HTML</h3>
+                    <p class="muted">Semantic tags + accessible structure.</p>
+                </div>
+                <div class="goal">
+                    <h3>Prettier CSS</h3>
+                    <p class="muted">Grids, rhythm, and color harmony.</p>
+                </div>
+                <div class="goal">
+                    <h3>Smarter JS</h3>
+                    <p class="muted">Small features, clean logic, no chaos.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section reveal">
+            <header>
+                <h2>Say Hi 👋</h2>
+                <span class="muted">I’m friendly!</span>
+            </header>
+            <div class="contact">
+                <div class="card">
+                    <b>Email</b>
+                    <p><a href="mailto:gcamshu3@gmail.com">gcamshu3@gmail.com</a></p>
+                    <b>Instagram</b>
+                    <p><a href="https://www.instagram.com/awm.hu/" target="_blank" rel="noreferrer">awm.hu</a></p>
+                </div>
+                <div class="card">
+                    <b>Quick message</b>
+                    <form onsubmit="demoSend(event)">
+                        <input
+                            style="width:100%; padding:12px; border:1px solid var(--line); border-radius:10px; margin-bottom:8px"
+                            placeholder="Your name" required>
+                        <textarea
+                            style="width:100%; padding:12px; border:1px solid var(--line); border-radius:10px; min-height:100px"
+                            placeholder="Write something sweet…" required></textarea>
+                        <button class="btn primary" style="margin-top:8px" type="submit">Send</button>
+                        <small class="muted" id="status" style="margin-left:8px"></small>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>© <span id="year"></span> Amshu G.C — built with love, not libraries. 💗</footer>
+    </main>
+
+    <script src="script.js"></script>
+
+
+    </script>
+</body>
+
+</html>
